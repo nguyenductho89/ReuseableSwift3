@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60C4998F8D1888BE48F0C60A /* Pods_ReuseableSwift3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8089B58F3DAAB2ADBE0123E /* Pods_ReuseableSwift3.framework */; };
+		7FBC3C5A206A0D7B4CD9B358 /* Pods_ReuseableSwift3UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73E77AA87835153501F2DDA6 /* Pods_ReuseableSwift3UITests.framework */; };
 		CB8C93BD1E2E76C000A181F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8C93BC1E2E76C000A181F1 /* AppDelegate.swift */; };
 		CB8C93BF1E2E76C000A181F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8C93BE1E2E76C000A181F1 /* ViewController.swift */; };
 		CB8C93C21E2E76C000A181F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB8C93C01E2E76C000A181F1 /* Main.storyboard */; };
@@ -15,6 +17,7 @@
 		CB8C93CA1E2E76C000A181F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB8C93C81E2E76C000A181F1 /* LaunchScreen.storyboard */; };
 		CB8C93D51E2E76C000A181F1 /* ReuseableSwift3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8C93D41E2E76C000A181F1 /* ReuseableSwift3Tests.swift */; };
 		CB8C93E01E2E76C000A181F1 /* ReuseableSwift3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8C93DF1E2E76C000A181F1 /* ReuseableSwift3UITests.swift */; };
+		E47459FB3E31F9D85189383C /* Pods_ReuseableSwift3Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E498BDB98D70AB2C1A58DDF /* Pods_ReuseableSwift3Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F1086E60A8B033820C4F238 /* Pods-ReuseableSwift3UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReuseableSwift3UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReuseableSwift3UITests/Pods-ReuseableSwift3UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		349364557510893A911A8C91 /* Pods-ReuseableSwift3Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReuseableSwift3Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReuseableSwift3Tests/Pods-ReuseableSwift3Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E498BDB98D70AB2C1A58DDF /* Pods_ReuseableSwift3Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReuseableSwift3Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66A6318CC3E5C572E1CB2C91 /* Pods-ReuseableSwift3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReuseableSwift3.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReuseableSwift3/Pods-ReuseableSwift3.release.xcconfig"; sourceTree = "<group>"; };
+		73E77AA87835153501F2DDA6 /* Pods_ReuseableSwift3UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReuseableSwift3UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA48FDB3373B1F6899BED01B /* Pods-ReuseableSwift3UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReuseableSwift3UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReuseableSwift3UITests/Pods-ReuseableSwift3UITests.release.xcconfig"; sourceTree = "<group>"; };
 		CB8C93B91E2E76C000A181F1 /* ReuseableSwift3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReuseableSwift3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB8C93BC1E2E76C000A181F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB8C93BE1E2E76C000A181F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +58,9 @@
 		CB8C93DB1E2E76C000A181F1 /* ReuseableSwift3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReuseableSwift3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB8C93DF1E2E76C000A181F1 /* ReuseableSwift3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseableSwift3UITests.swift; sourceTree = "<group>"; };
 		CB8C93E11E2E76C000A181F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD2AD0DA6F37FA06BC803EDC /* Pods-ReuseableSwift3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReuseableSwift3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReuseableSwift3/Pods-ReuseableSwift3.debug.xcconfig"; sourceTree = "<group>"; };
+		DD3B793F40AA9B84AFB02BFF /* Pods-ReuseableSwift3Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReuseableSwift3Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReuseableSwift3Tests/Pods-ReuseableSwift3Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F8089B58F3DAAB2ADBE0123E /* Pods_ReuseableSwift3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReuseableSwift3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60C4998F8D1888BE48F0C60A /* Pods_ReuseableSwift3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E47459FB3E31F9D85189383C /* Pods_ReuseableSwift3Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FBC3C5A206A0D7B4CD9B358 /* Pods_ReuseableSwift3UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B3B118EA4635290141BE086 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8089B58F3DAAB2ADBE0123E /* Pods_ReuseableSwift3.framework */,
+				3E498BDB98D70AB2C1A58DDF /* Pods_ReuseableSwift3Tests.framework */,
+				73E77AA87835153501F2DDA6 /* Pods_ReuseableSwift3UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B125D5211DAD6551E1AC2B96 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD2AD0DA6F37FA06BC803EDC /* Pods-ReuseableSwift3.debug.xcconfig */,
+				66A6318CC3E5C572E1CB2C91 /* Pods-ReuseableSwift3.release.xcconfig */,
+				349364557510893A911A8C91 /* Pods-ReuseableSwift3Tests.debug.xcconfig */,
+				DD3B793F40AA9B84AFB02BFF /* Pods-ReuseableSwift3Tests.release.xcconfig */,
+				1F1086E60A8B033820C4F238 /* Pods-ReuseableSwift3UITests.debug.xcconfig */,
+				BA48FDB3373B1F6899BED01B /* Pods-ReuseableSwift3UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CB8C93B01E2E76C000A181F1 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				CB8C93D31E2E76C000A181F1 /* ReuseableSwift3Tests */,
 				CB8C93DE1E2E76C000A181F1 /* ReuseableSwift3UITests */,
 				CB8C93BA1E2E76C000A181F1 /* Products */,
+				B125D5211DAD6551E1AC2B96 /* Pods */,
+				7B3B118EA4635290141BE086 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB8C93E41E2E76C000A181F1 /* Build configuration list for PBXNativeTarget "ReuseableSwift3" */;
 			buildPhases = (
+				226A50E51F13739454CCEF80 /* [CP] Check Pods Manifest.lock */,
 				CB8C93B51E2E76C000A181F1 /* Sources */,
 				CB8C93B61E2E76C000A181F1 /* Frameworks */,
 				CB8C93B71E2E76C000A181F1 /* Resources */,
+				0D2167B8EE057CD60C74E5B7 /* [CP] Embed Pods Frameworks */,
+				B23FDEA05948D8851E57A5C8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB8C93E71E2E76C000A181F1 /* Build configuration list for PBXNativeTarget "ReuseableSwift3Tests" */;
 			buildPhases = (
+				88F48F15E38F7BF746BE7766 /* [CP] Check Pods Manifest.lock */,
 				CB8C93CC1E2E76C000A181F1 /* Sources */,
 				CB8C93CD1E2E76C000A181F1 /* Frameworks */,
 				CB8C93CE1E2E76C000A181F1 /* Resources */,
+				0FDBC92B7505A15A46CEEC1D /* [CP] Embed Pods Frameworks */,
+				E724C352840B6E33EACD7314 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB8C93EA1E2E76C000A181F1 /* Build configuration list for PBXNativeTarget "ReuseableSwift3UITests" */;
 			buildPhases = (
+				213D65609F8303A419549437 /* [CP] Check Pods Manifest.lock */,
 				CB8C93D71E2E76C000A181F1 /* Sources */,
 				CB8C93D81E2E76C000A181F1 /* Frameworks */,
 				CB8C93D91E2E76C000A181F1 /* Resources */,
+				C7A97F62AA5A4756A9AD195F /* [CP] Embed Pods Frameworks */,
+				7A1BF25018AAE1263381F7D5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,6 +308,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D2167B8EE057CD60C74E5B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReuseableSwift3/Pods-ReuseableSwift3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0FDBC92B7505A15A46CEEC1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReuseableSwift3Tests/Pods-ReuseableSwift3Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		213D65609F8303A419549437 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		226A50E51F13739454CCEF80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7A1BF25018AAE1263381F7D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReuseableSwift3UITests/Pods-ReuseableSwift3UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88F48F15E38F7BF746BE7766 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B23FDEA05948D8851E57A5C8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReuseableSwift3/Pods-ReuseableSwift3-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7A97F62AA5A4756A9AD195F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReuseableSwift3UITests/Pods-ReuseableSwift3UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E724C352840B6E33EACD7314 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReuseableSwift3Tests/Pods-ReuseableSwift3Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CB8C93B51E2E76C000A181F1 /* Sources */ = {
@@ -417,6 +604,7 @@
 		};
 		CB8C93E51E2E76C000A181F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD2AD0DA6F37FA06BC803EDC /* Pods-ReuseableSwift3.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = J3Q6NXR57K;
@@ -430,6 +618,7 @@
 		};
 		CB8C93E61E2E76C000A181F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66A6318CC3E5C572E1CB2C91 /* Pods-ReuseableSwift3.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = J3Q6NXR57K;
@@ -443,6 +632,7 @@
 		};
 		CB8C93E81E2E76C000A181F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 349364557510893A911A8C91 /* Pods-ReuseableSwift3Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +648,7 @@
 		};
 		CB8C93E91E2E76C000A181F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD3B793F40AA9B84AFB02BFF /* Pods-ReuseableSwift3Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -473,6 +664,7 @@
 		};
 		CB8C93EB1E2E76C000A181F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F1086E60A8B033820C4F238 /* Pods-ReuseableSwift3UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = J3Q6NXR57K;
@@ -487,6 +679,7 @@
 		};
 		CB8C93EC1E2E76C000A181F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA48FDB3373B1F6899BED01B /* Pods-ReuseableSwift3UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = J3Q6NXR57K;
